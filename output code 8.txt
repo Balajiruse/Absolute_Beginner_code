@@ -1,0 +1,34 @@
+You will be provided with a number. Print the number of days in the month corresponding to that number.
+
+Note: In case the input is February, print 28 days. If the Input is not in valid range print "Error".
+
+Input Description:
+The input is in the form of a number.
+
+Output Description:
+Find the days in the month corresponding to the input number. Print Error if the input is not in a valid range.
+
+Sample Input :
+8
+Sample Output :
+31
+
+
+output:
+
+const m =userInput[0];
+if(m==2){
+    console.log("28");
+}
+ else if(m===1||m===3|| m===5 || m===7||m===8||m===10||m===11)
+ {
+     console.log("30");
+ }
+ else if(m===4||m===6||m===9||m===12)
+ {
+     console.log("31");
+ }
+ else
+ {
+     console.log("Error");
+ }

@@ -1,0 +1,28 @@
+You are provided with two numbers. Find and print the smaller number.
+
+Input Description:
+You are provided with two numbers as input.
+
+Output Description:
+Print the small number out of the two numbers.
+
+Sample Input :
+23 1
+Sample Output :
+1
+
+output;
+
+
+let n=userInput[0].split(" ");
+  let a=parseInt(n[0]);
+  let b=parseInt(n[1]);
+  
+  if(a>b){
+      console.log(b);
+  }
+  
+  else{
+    console.log(a);
+
+}

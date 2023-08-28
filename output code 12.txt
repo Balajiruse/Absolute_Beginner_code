@@ -1,0 +1,23 @@
+Print the First 3 multiples of the given number "N". (N is a positive integer)
+
+Note: print the characters with a single space between them.
+
+Input Description:
+A positive integer is provided to you as an input.
+
+Output Description:
+Print the First 3 multiples of the number with single spaces between them as an output.
+
+Sample Input :
+2
+Sample Output :
+2 4 6
+
+
+output:
+const a =userInput[0];
+let n1=a*1;
+let n2=a*2;
+let n3=a*3;
+
+console.log(n1,n2,n3);
